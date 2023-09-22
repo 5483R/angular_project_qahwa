@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #151515;
+    height: 741px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%; 
+    z-index: -1;
+
+}
+
+.bg img{
+    opacity: 0.6;
+    mix-blend-mode: color-dodge !important;
+}

@@ -1,0 +1,40 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+.logo img{
+    margin-left: 2.3em;
+    height: auto;
+    top: 5%;
+    position: fixed;
+}
+nav {
+    position:fixed;
+    left: 50%;
+    top: 3%;
+}
+
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 75px;
+}
+ul li a{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
